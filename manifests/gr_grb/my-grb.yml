@@ -3,4 +3,4 @@ kind: GlobalRoleBinding
 metadata:
   name: my-test-grb1
 globalRoleName: my-test-gr1
-userName: u-94hl6
+userName: u-x68fl
