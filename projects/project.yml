@@ -2,7 +2,7 @@ apiVersion: management.cattle.io/v3
 kind: Project
 metadata:
   name: fleet-test-project
-  namespace: c-j8cxv
+  namespace: c-924m5
 spec:
-  clusterName: c-j8cxv
-  displayName: dn-fleet-project
+  clusterName: c-924m5
+  displayName: display-name-fleet-project
