@@ -2,7 +2,7 @@ apiVersion: management.cattle.io/v3
 kind: Project
 metadata:
   name: fleet-test-project
-  namespace: local
+  namespace: c-6xfp8
 spec:
-  clusterName: local
+  clusterName: c-6xfp8
   displayName: display-name-fleet-project
