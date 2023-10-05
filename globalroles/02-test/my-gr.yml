@@ -1,0 +1,15 @@
+apiVersion: management.cattle.io/v3
+kind: GlobalRole
+metadata:
+  name: gr-test-02
+rules:
+  - apiGroups:
+      - '*'
+    resources:
+      - '*'
+    verbs:
+      - '*'
+  - nonResourceURLs:
+      - '*'
+    verbs:
+      - '*'
