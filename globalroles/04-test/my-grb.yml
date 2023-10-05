@@ -1,0 +1,6 @@
+apiVersion: management.cattle.io/v3
+kind: GlobalRoleBinding
+metadata:
+  name: grb-test-04
+globalRoleName: restricted-admin
+userName: u-xpzln
