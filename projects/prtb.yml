@@ -1,8 +1,8 @@
-# apiVersion: management.cattle.io/v3
-# kind: ProjectRoleTemplateBinding
-# metadata:
-#   name: add-proj-member
-#   namespace: project-test
-# projectName: c-m-bsg27dgn:project-test
-# roleTemplateName: project-member
-# userPrincipalName: local://user-gvmvn
+apiVersion: management.cattle.io/v3
+kind: ProjectRoleTemplateBinding
+metadata:
+  name: add-proj-member
+  namespace: project-test
+projectName: c-m-bsg27dgn:project-test
+roleTemplateName: project-member
+userName: admin
